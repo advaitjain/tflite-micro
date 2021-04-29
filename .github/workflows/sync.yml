@@ -23,33 +23,11 @@ jobs:
       - name: Create TFLM tree
         run: |
           ./ci/sync_from_upstream_tf.sh
-      - name: Create PR
-        run: |
-          if [[ $(git status --porcelain | wc -l) == 0 ]]; then
-            echo "No changes in upstream TF."
-          else
-            git config user.email "advaitjain@users.noreply.github.com"
-            git config user.name "Advait Jain"
-            git remote set-url origin https://${{secrets.GIHUB_TOKEN}}@github.com/tensorflow/tflite_micro.git
-            git checkout -b sync-from-upstream-tf
-            git add *
-            git commit -a -m "Sync from upstream TF"
-            git push --set-upstream origin sync-from-upstream-tf
-            echo ${{secrets.GITHUB_TOKEN}} | gh auth login --with-token
-            gh pr create --title "Sync from upstream TF" --body "" --head "sync-from-upstream-tf"
-          fi
-
-
-      # TODO(#13): Uncomment the lines below once we can appropriately change
-      # labels from PRs created from forks.
-      # - name: Remove ci:run Tag
-      #   uses: actions/github-script@v3
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       github.issues.removeLabel({
-      #         issue_number: context.issue.number,
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         name: 'ci:run'
-      #       })
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@052fc72b4198ba9fbc81b818c6e1859f747d49a8
+        with:
+          branch: sync-from-upstream-tf
+          delete-branch: true
+          title: Automated sync from github.com/tensorflow/tensorflow
+          commit message: Automated sync from github.com/tensorflow/tensorflow
+          body: ""
