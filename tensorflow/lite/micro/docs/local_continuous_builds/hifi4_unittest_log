@@ -1,4 +1,4 @@
-Building at f9c8b63556a1f83cd02997a9bd6036581d0cad50
+Building at 2cb31667d051901f99431d89b69c47c10fa04c87
 
 make -f tensorflow/lite/micro/tools/make/Makefile clean
 
@@ -777,7 +777,8 @@ tensorflow/lite/micro/kernels/depthwise_conv_common.cc:185 affine_quantization->
 tensorflow/lite/micro/kernels/depthwise_conv_common.cc:188 affine_quantization->scale->size != affine_quantization->zero_point->size (4 != 2)
 Testing Int8Input32x4Filter32x4ShouldMatchGolden
 Testing Int8Input32x1Filter32x1ShouldMatchGolden
-3/3 tests passed
+Testing SimpleTestQuantizedPerChannelInt4Filter
+4/4 tests passed
 ~~~ALL TESTS PASSED~~~
 
 xt-clang++ -std=c++11 -fno-exceptions -fno-threadsafe-statics -Wnon-virtual-dtor -Werror -fno-unwind-tables -ffunction-sections -fdata-sections -fmessage-length=0 -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -Wsign-compare -Wdouble-promotion -Wshadow -Wunused-variable -Wunused-function -Wswitch -Wvla -Wall -Wextra -Wmissing-field-initializers -Wstrict-aliasing -Wno-unused-parameter -DXTENSA -DTF_LITE_MCU_DEBUG_LOG -DTF_LITE_USE_CTIME --xtensa-core=F1_190305_swupgrade -mcoproc -DMAX_RFFT_PWR=9 -DMIN_RFFT_PWR=MAX_RFFT_PWR -DHIFI4 -mlongcalls -DNNLIB_V2 -Wno-shadow -Os -I. -Itensorflow/lite/micro/tools/make/downloads/gemmlowp -Itensorflow/lite/micro/tools/make/downloads/flatbuffers/include -Itensorflow/lite/micro/tools/make/downloads/ruy -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/kernels/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/include/nnlib/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/include/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/common/include/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/ndsp/hifi4/include/ -Itensorflow/lite/micro/tools/make/downloads/hifi_fft/ -Igen/xtensa_hifi4_default/genfiles/ -Igen/xtensa_hifi4_default/genfiles/ -Itensorflow/lite/micro/tools/make/downloads/kissfft -c tensorflow/lite/micro/kernels/dequantize_test.cc -o gen/xtensa_hifi4_default/obj/core/tensorflow/lite/micro/kernels/dequantize_test.o
