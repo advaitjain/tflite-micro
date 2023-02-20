@@ -1,4 +1,4 @@
-Building at 88896859b3a0c9caa4fc4bbb4ae64ee6f57b699c
+Building at 82f593c1db6c25acfc0efb26989be6d6da8130fe
 
 make -f tensorflow/lite/micro/tools/make/Makefile clean
 
@@ -1229,25 +1229,25 @@ xt-clang++ -std=c++11 -fno-exceptions -fno-threadsafe-statics -Wnon-virtual-dtor
 xt-clang++ -std=c++11 -fno-exceptions -fno-threadsafe-statics -Wnon-virtual-dtor -Werror -fno-unwind-tables -ffunction-sections -fdata-sections -fmessage-length=0 -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -Wsign-compare -Wdouble-promotion -Wshadow -Wunused-variable -Wunused-function -Wswitch -Wvla -Wall -Wextra -Wmissing-field-initializers -Wstrict-aliasing -Wno-unused-parameter -DXTENSA -DTF_LITE_MCU_DEBUG_LOG -DTF_LITE_USE_CTIME --xtensa-core=F1_190305_swupgrade -mcoproc -DMAX_RFFT_PWR=9 -DMIN_RFFT_PWR=MAX_RFFT_PWR -DHIFI4 -mlongcalls -DNNLIB_V2 -Wno-shadow -I. -Itensorflow/lite/micro/tools/make/downloads/gemmlowp -Itensorflow/lite/micro/tools/make/downloads/flatbuffers/include -Itensorflow/lite/micro/tools/make/downloads/ruy -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/kernels/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/include/nnlib/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/include/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/common/include/ -Itensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi4/algo/ndsp/hifi4/include/ -Itensorflow/lite/micro/tools/make/downloads/hifi_fft/ -Igen/xtensa_hifi4_default/genfiles/ -Igen/xtensa_hifi4_default/genfiles/ -Itensorflow/lite/micro/tools/make/downloads/kissfft -o gen/xtensa_hifi4_default/bin/kernel_reshape_test gen/xtensa_hifi4_default/obj/core/tensorflow/lite/micro/kernels/reshape_test.o gen/xtensa_hifi4_default/lib/libtensorflow-microlite.a -Wl,--fatal-warnings -Wl,--gc-sections -lm
 tensorflow/lite/micro/testing/test_xtensa_binary.sh gen/xtensa_hifi4_default/bin/kernel_reshape_test '~~~ALL TESTS PASSED~~~' xtensa
 Testing ReshapeWithMismatchedDimensionsShouldFail
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (8 != 2)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (8 != 2)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:97 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (8 != 2)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (8 != 2)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:102 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
 Testing ReshapeWithTooManyDimensionsShouldFail
 Testing ReshapeWithTooManySpecialDimensionsShouldFail
 tensorflow/lite/micro/kernels/xtensa/reshape.cc:75 stretch_dim != -1 (0 != -1)
 tensorflow/lite/micro/kernels/xtensa/reshape.cc:75 stretch_dim != -1 (0 != -1)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:97 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:102 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
 Testing ReshapeWithInvalidShapeShouldFail
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (4 != 2)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (4 != 2)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:97 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (4 != 2)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (4 != 2)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:102 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
 Testing ReshapeWithRegularShapesShouldSucceed
 Testing ReshapeWithStretchDimensionShouldSucceed
 Testing ReshapeWithScalarOutputShouldSucceed
 Testing ReshapeWithLegacyScalarOutputShouldSucceed
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (1 != 0)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:87 num_input_elements != num_output_elements (1 != 0)
-tensorflow/lite/micro/kernels/xtensa/reshape.cc:97 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:92 num_input_elements != num_output_elements (1 != 0)
+tensorflow/lite/micro/kernels/xtensa/reshape.cc:102 ReshapeOutput(context, node) != kTfLiteOk (1 != 0)
 8/8 tests passed
 ~~~ALL TESTS PASSED~~~
 
