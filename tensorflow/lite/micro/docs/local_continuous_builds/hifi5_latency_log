@@ -40722,3 +40722,10 @@ tflite-micro version: 62f88b41d41e2f6fc3644d7d1d35f8581465d984
 ( Xtensa ISS ) *ERROR* Unable to load 'tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_default/bin/keyword_benchmark'
 ( exit       ) exit requested from context 'Xtensa ISS' ( rc = -1 )
 ( main       ) *WARNING* fatal error(s) caught ( rc = -1 )
+
+Wed Feb 22 16:35:26 PST 2023
+tflite-micro version: f754675f8b27e94739c4096d615e53179a0e4cfa
+( [ AE_HiFi5_LE5_AO_FP_XC ] load_elf ) *WARNING* could not find tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_default/bin/keyword_benchmark
+( Xtensa ISS ) *ERROR* Unable to load 'tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_default/bin/keyword_benchmark'
+( exit       ) exit requested from context 'Xtensa ISS' ( rc = -1 )
+( main       ) *WARNING* fatal error(s) caught ( rc = -1 )
