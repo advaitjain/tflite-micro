@@ -1,4 +1,4 @@
-Building at 4e62ea7b821c1e6af004912132395fb81922ea8d
+Building at 48b6cffeb2c6f07b887e227f57de00da7783d736
 
 make -f tensorflow/lite/micro/tools/make/Makefile clean
 
@@ -20,34 +20,34 @@ tensorflow/lite/micro/tools/make/downloads/flatbuffers already exists, skipping 
 tensorflow/lite/micro/tools/make/downloads/kissfft already exists, skipping the download.
 tensorflow/lite/micro/tools/make/downloads/pigweed already exists, skipping the download.
 URL transformed to HTTPS due to an HSTS policy
---2023-02-27 06:29:50--  https://github.com/foss-xtensa/nnlib-hifi5/raw/master/archive/xa_nnlib_hifi5_12_19_2022.zip
+--2023-02-27 12:29:48--  https://github.com/foss-xtensa/nnlib-hifi5/raw/master/archive/xa_nnlib_hifi5_12_19_2022.zip
 Resolving github.com (github.com)... 140.82.114.3
 Connecting to github.com (github.com)|140.82.114.3|:443... connected.
 HTTP request sent, awaiting response... 302 Found
 Location: https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip [following]
---2023-02-27 06:29:51--  https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8003::154, 2606:50c0:8002::154, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+--2023-02-27 12:29:48--  https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8000::154, 2606:50c0:8001::154, 2606:50c0:8002::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8000::154|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 691264 (675K) [application/zip]
-Saving to: '/tmp/tmp.lFhOoA4itC/xa_nnlib_hifi5.zip'
+Saving to: '/tmp/tmp.flcQvXmowa/xa_nnlib_hifi5.zip'
 
-     0K .......... .......... .......... .......... ..........  7% 18.3M 0s
-    50K .......... .......... .......... .......... .......... 14% 9.14M 0s
-   100K .......... .......... .......... .......... .......... 22% 78.4M 0s
-   150K .......... .......... .......... .......... .......... 29% 56.0M 0s
-   200K .......... .......... .......... .......... .......... 37% 44.4M 0s
-   250K .......... .......... .......... .......... .......... 44% 94.9M 0s
-   300K .......... .......... .......... .......... .......... 51% 89.4M 0s
-   350K .......... .......... .......... .......... .......... 59%  115M 0s
-   400K .......... .......... .......... .......... .......... 66%  127M 0s
-   450K .......... .......... .......... .......... .......... 74% 55.2M 0s
-   500K .......... .......... .......... .......... .......... 81%  157M 0s
-   550K .......... .......... .......... .......... .......... 88%  160M 0s
-   600K .......... .......... .......... .......... .......... 96%  108M 0s
-   650K .......... .......... .....                           100%  150M=0.01s
+     0K .......... .......... .......... .......... ..........  7% 18.6M 0s
+    50K .......... .......... .......... .......... .......... 14% 23.3M 0s
+   100K .......... .......... .......... .......... .......... 22%  109M 0s
+   150K .......... .......... .......... .......... .......... 29%  106M 0s
+   200K .......... .......... .......... .......... .......... 37% 29.5M 0s
+   250K .......... .......... .......... .......... .......... 44%  104M 0s
+   300K .......... .......... .......... .......... .......... 51% 49.4M 0s
+   350K .......... .......... .......... .......... .......... 59%  124M 0s
+   400K .......... .......... .......... .......... .......... 66% 97.6M 0s
+   450K .......... .......... .......... .......... .......... 74%  115M 0s
+   500K .......... .......... .......... .......... .......... 81%  121M 0s
+   550K .......... .......... .......... .......... .......... 88%  125M 0s
+   600K .......... .......... .......... .......... .......... 96%  105M 0s
+   650K .......... .......... .....                           100%  129M=0.01s
 
-2023-02-27 06:29:51 (45.2 MB/s) - '/tmp/tmp.lFhOoA4itC/xa_nnlib_hifi5.zip' saved [691264/691264]
+2023-02-27 12:29:49 (57.3 MB/s) - '/tmp/tmp.flcQvXmowa/xa_nnlib_hifi5.zip' saved [691264/691264]
 
 Switched to a new branch 'tflm'
 Applying /usr/local/google/home/advaitjain/github/local-continuous-build/tflite-micro/tensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi5/.//../../ext_libs/xa_nnlib_hifi5.patch to /usr/local/google/home/advaitjain/github/local-continuous-build/tflite-micro/tensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi5/./
