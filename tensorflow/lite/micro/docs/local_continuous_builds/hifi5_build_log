@@ -20,34 +20,34 @@ tensorflow/lite/micro/tools/make/downloads/flatbuffers already exists, skipping 
 tensorflow/lite/micro/tools/make/downloads/kissfft already exists, skipping the download.
 tensorflow/lite/micro/tools/make/downloads/pigweed already exists, skipping the download.
 URL transformed to HTTPS due to an HSTS policy
---2023-03-02 16:26:00--  https://github.com/foss-xtensa/nnlib-hifi5/raw/master/archive/xa_nnlib_hifi5_12_19_2022.zip
+--2023-03-03 06:29:58--  https://github.com/foss-xtensa/nnlib-hifi5/raw/master/archive/xa_nnlib_hifi5_12_19_2022.zip
 Resolving github.com (github.com)... 140.82.114.3
 Connecting to github.com (github.com)|140.82.114.3|:443... connected.
 HTTP request sent, awaiting response... 302 Found
 Location: https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip [following]
---2023-03-02 16:26:01--  https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip
-Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8001::154, 2606:50c0:8003::154, 2606:50c0:8002::154, ...
-Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8001::154|:443... connected.
+--2023-03-03 06:29:58--  https://raw.githubusercontent.com/foss-xtensa/nnlib-hifi5/master/archive/xa_nnlib_hifi5_12_19_2022.zip
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 2606:50c0:8002::154, 2606:50c0:8001::154, 2606:50c0:8003::154, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|2606:50c0:8002::154|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: 691264 (675K) [application/zip]
-Saving to: '/tmp/tmp.NtwmYUGVH1/xa_nnlib_hifi5.zip'
+Saving to: '/tmp/tmp.2ZKBO1yPYc/xa_nnlib_hifi5.zip'
 
-     0K .......... .......... .......... .......... ..........  7% 19.1M 0s
+     0K .......... .......... .......... .......... ..........  7% 19.2M 0s
     50K .......... .......... .......... .......... .......... 14% 20.9M 0s
-   100K .......... .......... .......... .......... .......... 22% 79.3M 0s
-   150K .......... .......... .......... .......... .......... 29% 41.1M 0s
-   200K .......... .......... .......... .......... .......... 37% 53.1M 0s
-   250K .......... .......... .......... .......... .......... 44% 79.8M 0s
-   300K .......... .......... .......... .......... .......... 51% 82.2M 0s
-   350K .......... .......... .......... .......... .......... 59% 88.0M 0s
-   400K .......... .......... .......... .......... .......... 66% 73.1M 0s
-   450K .......... .......... .......... .......... .......... 74% 84.1M 0s
-   500K .......... .......... .......... .......... .......... 81% 88.3M 0s
-   550K .......... .......... .......... .......... .......... 88% 79.6M 0s
-   600K .......... .......... .......... .......... .......... 96%  165M 0s
-   650K .......... .......... .....                           100%  213M=0.01s
+   100K .......... .......... .......... .......... .......... 22% 83.3M 0s
+   150K .......... .......... .......... .......... .......... 29% 25.8M 0s
+   200K .......... .......... .......... .......... .......... 37% 90.2M 0s
+   250K .......... .......... .......... .......... .......... 44%  103M 0s
+   300K .......... .......... .......... .......... .......... 51%  106M 0s
+   350K .......... .......... .......... .......... .......... 59% 61.6M 0s
+   400K .......... .......... .......... .......... .......... 66% 98.4M 0s
+   450K .......... .......... .......... .......... .......... 74% 59.3M 0s
+   500K .......... .......... .......... .......... .......... 81%  101M 0s
+   550K .......... .......... .......... .......... .......... 88%  109M 0s
+   600K .......... .......... .......... .......... .......... 96%  107M 0s
+   650K .......... .......... .....                           100%  131M=0.01s
 
-2023-03-02 16:26:01 (54.0 MB/s) - '/tmp/tmp.NtwmYUGVH1/xa_nnlib_hifi5.zip' saved [691264/691264]
+2023-03-03 06:29:58 (52.6 MB/s) - '/tmp/tmp.2ZKBO1yPYc/xa_nnlib_hifi5.zip' saved [691264/691264]
 
 Switched to a new branch 'tflm'
 Applying /usr/local/google/home/advaitjain/github/local-continuous-build/tflite-micro/tensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi5/.//../../ext_libs/xa_nnlib_hifi5.patch to /usr/local/google/home/advaitjain/github/local-continuous-build/tflite-micro/tensorflow/lite/micro/tools/make/downloads/xa_nnlib_hifi5/./
