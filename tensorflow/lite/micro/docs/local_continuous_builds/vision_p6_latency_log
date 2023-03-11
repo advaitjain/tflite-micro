@@ -40688,3 +40688,10 @@ tflite-micro version: 4038bfcc17b956d231bab93dd61da2e0e97974dc
 ( Xtensa ISS ) *ERROR* Unable to load 'tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_default/bin/keyword_benchmark'
 ( exit       ) exit requested from context 'Xtensa ISS' ( rc = -1 )
 ( main       ) *WARNING* fatal error(s) caught ( rc = -1 )
+
+Fri Mar 10 17:05:08 PST 2023
+tflite-micro version: 4038bfcc17b956d231bab93dd61da2e0e97974dc
+( [ P6_200528 ] load_elf ) *WARNING* could not find tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_default/bin/keyword_benchmark
+( Xtensa ISS ) *ERROR* Unable to load 'tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_default/bin/keyword_benchmark'
+( exit       ) exit requested from context 'Xtensa ISS' ( rc = -1 )
+( main       ) *WARNING* fatal error(s) caught ( rc = -1 )
