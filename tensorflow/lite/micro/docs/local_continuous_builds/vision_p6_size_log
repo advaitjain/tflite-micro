@@ -7475,3 +7475,7 @@ xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_release/bin/keyw
 Mon Mar 13 13:08:28 PDT 2023
 tflite-micro version: 3eb56863879e2ba3c638ded56b89da99cc39cfa1
 xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_release/bin/keyword_benchmark': No such file
+
+Mon Mar 13 17:03:22 PDT 2023
+tflite-micro version: 3eb56863879e2ba3c638ded56b89da99cc39cfa1
+xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_vision_p6_release/bin/keyword_benchmark': No such file
