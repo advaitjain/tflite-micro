@@ -7633,3 +7633,7 @@ xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_release/bin/keyword_
 Wed Mar 22 16:30:44 PDT 2023
 tflite-micro version: a2655b38e611500e319565e73df159bd4a8d0768
 xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_release/bin/keyword_benchmark': No such file
+
+Thu Mar 23 06:34:52 PDT 2023
+tflite-micro version: 75f52901ebf5f1d6fbcef7e65e5e99e31ac63e44
+xt-size: 'tensorflow/lite/micro/tools/make/gen/xtensa_hifi5_release/bin/keyword_benchmark': No such file
